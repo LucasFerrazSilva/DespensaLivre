@@ -1,4 +1,4 @@
-package com.ferraz.despensalivre.DespensaLivre.controller;
+package com.ferraz.despensalivre.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.ferraz.despensalivre.DespensaLivre.model.Condominium;
-import com.ferraz.despensalivre.DespensaLivre.repository.CondominiumRepository;
+import com.ferraz.despensalivre.model.Condominium;
+import com.ferraz.despensalivre.repository.CondominiumRepository;
 
 @Controller
 @RequestMapping("/condominium")

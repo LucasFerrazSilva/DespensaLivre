@@ -1,4 +1,4 @@
-package com.ferraz.despensalivre.DespensaLivre.model;
+package com.ferraz.despensalivre.model;
 
 import static javax.persistence.GenerationType.IDENTITY;
 

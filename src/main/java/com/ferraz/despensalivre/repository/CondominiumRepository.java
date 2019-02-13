@@ -1,8 +1,8 @@
-package com.ferraz.despensalivre.DespensaLivre.repository;
+package com.ferraz.despensalivre.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.ferraz.despensalivre.DespensaLivre.model.Condominium;
+import com.ferraz.despensalivre.model.Condominium;
 
 public interface CondominiumRepository extends CrudRepository<Condominium, Integer> {
 
