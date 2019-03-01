@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 
 import lombok.Data;
 
@@ -20,12 +21,12 @@ public class Condominium {
 	@Column(name="CONDOMINIUM_ID")
 	private Integer id;
 	
+	@NotBlank
 	@Column(name="NAME")
 	private String name;
-	
+
+	@NotBlank
 	@Column(name="ADDRESS")
 	private String address;
-	
-	
-	
+
 }
